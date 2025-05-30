@@ -1,4 +1,4 @@
-module github.com/haproxytech/kubernetes-ingress
+module github.com/haproxytech/kubernetes-ingress/v3
 
 go 1.24.0
 
