@@ -19,24 +19,24 @@ import (
 	"strings"
 
 	"github.com/haproxytech/client-native/v5/models"
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/certs"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/instance"
-	rc "github.com/haproxytech/kubernetes-ingress/pkg/reference-counter"
-	"github.com/haproxytech/kubernetes-ingress/pkg/rules"
-	aclrules "github.com/haproxytech/kubernetes-ingress/pkg/rules/acls"
-	backendswitchingrules "github.com/haproxytech/kubernetes-ingress/pkg/rules/backend_switching_rules"
-	bindsrules "github.com/haproxytech/kubernetes-ingress/pkg/rules/binds"
-	"github.com/haproxytech/kubernetes-ingress/pkg/rules/captures"
-	"github.com/haproxytech/kubernetes-ingress/pkg/rules/filters"
-	logtargets "github.com/haproxytech/kubernetes-ingress/pkg/rules/log_targets"
-	tcprequestrules "github.com/haproxytech/kubernetes-ingress/pkg/rules/tcp_request_rules"
-	"github.com/haproxytech/kubernetes-ingress/pkg/secret"
-	"github.com/haproxytech/kubernetes-ingress/pkg/service"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/certs"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/instance"
+	rc "github.com/haproxytech/kubernetes-ingress/v3/pkg/reference-counter"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/rules"
+	aclrules "github.com/haproxytech/kubernetes-ingress/v3/pkg/rules/acls"
+	backendswitchingrules "github.com/haproxytech/kubernetes-ingress/v3/pkg/rules/backend_switching_rules"
+	bindsrules "github.com/haproxytech/kubernetes-ingress/v3/pkg/rules/binds"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/rules/captures"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/rules/filters"
+	logtargets "github.com/haproxytech/kubernetes-ingress/v3/pkg/rules/log_targets"
+	tcprequestrules "github.com/haproxytech/kubernetes-ingress/v3/pkg/rules/tcp_request_rules"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/secret"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/service"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 	"k8s.io/apimachinery/pkg/types"
 )
 
@@ -69,7 +69,7 @@ func NewTCPCustomResource(controllerIngressClass string, allowEmptyIngressClass 
 // 	// - empty-ingress-class controller option will also impact TCP CRD starting 3.1
 // 	logger.Warning("Using TCP CRD without ingress.class annotation will work only in 3.0")
 // 	logger.Warning("If you are using TCP CRDS without ingress.class annotation and ingress.class is set for the controller,an action is required before migrating to 3.1")
-// 	logger.Warning("Please read https://github.com/haproxytech/kubernetes-ingress/blob/master/documentation/custom-resource-tcp.md for more information")
+// 	logger.Warning("Please read https://github.com/haproxytech/kubernetes-ingress/v3/blob/master/documentation/custom-resource-tcp.md for more information")
 // }
 
 func (handler TCPCustomResource) Update(k store.K8s, h haproxy.HAProxy, a annotations.Annotations) (err error) {

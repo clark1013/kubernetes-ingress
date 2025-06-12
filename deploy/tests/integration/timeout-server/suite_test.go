@@ -18,9 +18,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/haproxytech/kubernetes-ingress/deploy/tests/integration"
-	k8ssync "github.com/haproxytech/kubernetes-ingress/pkg/k8s/sync"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/deploy/tests/integration"
+	k8ssync "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/sync"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
 	"github.com/stretchr/testify/suite"
 )
 

@@ -17,12 +17,12 @@ package k8s
 import (
 	"k8s.io/client-go/tools/cache"
 
-	corev1alpha2 "github.com/haproxytech/kubernetes-ingress/crs/api/core/v1alpha2"
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
-	"github.com/haproxytech/kubernetes-ingress/crs/converters"
-	informers "github.com/haproxytech/kubernetes-ingress/crs/generated/informers/externalversions"
-	k8ssync "github.com/haproxytech/kubernetes-ingress/pkg/k8s/sync"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
+	corev1alpha2 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/core/v1alpha2"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
+	"github.com/haproxytech/kubernetes-ingress/v3/crs/converters"
+	informers "github.com/haproxytech/kubernetes-ingress/v3/crs/generated/informers/externalversions"
+	k8ssync "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/sync"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
 )
 
 type GlobalCRV1Alpha2 struct{}

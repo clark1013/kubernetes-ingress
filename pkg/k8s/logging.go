@@ -15,8 +15,8 @@
 package k8s
 
 import (
-	k8smeta "github.com/haproxytech/kubernetes-ingress/pkg/k8s/meta"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	k8smeta "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/meta"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 	"k8s.io/apimachinery/pkg/types"
 )
 

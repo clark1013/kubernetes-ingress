@@ -3,9 +3,9 @@ package service
 import (
 	"github.com/haproxytech/client-native/v5/models"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations/common"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/certs"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations/common"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/certs"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
 )
 
 type CA struct {

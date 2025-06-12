@@ -11,11 +11,11 @@ import (
 
 	"github.com/google/renameio"
 	"github.com/haproxytech/client-native/v5/runtime"
-	"github.com/haproxytech/kubernetes-ingress/pkg/fs"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/api"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/instance"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/fs"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/api"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/instance"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 type certs struct {

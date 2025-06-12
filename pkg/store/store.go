@@ -18,9 +18,9 @@ import (
 	"fmt"
 
 	"github.com/haproxytech/client-native/v5/models"
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
-	rc "github.com/haproxytech/kubernetes-ingress/pkg/reference-counter"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
+	rc "github.com/haproxytech/kubernetes-ingress/v3/pkg/reference-counter"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 const DefaultLocalBackend = "default-local-service"

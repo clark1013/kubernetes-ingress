@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/haproxytech/kubernetes-ingress/deploy/tests/e2e"
+	"github.com/haproxytech/kubernetes-ingress/v3/deploy/tests/e2e"
 )
 
 func (suite *ConfigSnippetSuite) TestFrontendCfgSnippet() {

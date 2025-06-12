@@ -18,9 +18,9 @@ import (
 	"testing"
 
 	"github.com/haproxytech/client-native/v5/models"
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
-	"github.com/haproxytech/kubernetes-ingress/deploy/tests/integration"
-	k8ssync "github.com/haproxytech/kubernetes-ingress/pkg/k8s/sync"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
+	"github.com/haproxytech/kubernetes-ingress/v3/deploy/tests/integration"
+	k8ssync "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/sync"
 	"github.com/stretchr/testify/suite"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

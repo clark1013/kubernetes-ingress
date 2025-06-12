@@ -17,9 +17,9 @@ import (
 	"context"
 
 	"github.com/Masterminds/semver/v3"
-	"github.com/haproxytech/kubernetes-ingress/crs/definition"
-	"github.com/haproxytech/kubernetes-ingress/pkg/k8s"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/crs/definition"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 	apiextensionsv1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
 	apiextensionsclientset "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset"
 	apiError "k8s.io/apimachinery/pkg/api/errors"

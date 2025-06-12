@@ -22,8 +22,8 @@ import (
 
 	"github.com/google/renameio"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/certs"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/certs"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 // Env contains Directories and files required by haproxy

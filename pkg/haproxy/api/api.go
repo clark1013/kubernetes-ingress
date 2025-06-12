@@ -11,8 +11,8 @@ import (
 	"github.com/haproxytech/client-native/v5/runtime"
 	runtimeoptions "github.com/haproxytech/client-native/v5/runtime/options"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 // BufferSize is the default value of HAproxy tune.bufsize. Not recommended to change it

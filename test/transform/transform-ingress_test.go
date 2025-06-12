@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	k8stransform "github.com/haproxytech/kubernetes-ingress/pkg/k8s/transform"
+	k8stransform "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/transform"
 	"github.com/stretchr/testify/require"
 	"sigs.k8s.io/yaml"
 

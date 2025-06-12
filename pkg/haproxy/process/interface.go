@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/api"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/env"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/api"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/env"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 var logger = utils.GetLogger()

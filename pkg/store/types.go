@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/haproxytech/client-native/v5/models"
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
 )
 
 // ServicePort describes port of a service

@@ -9,8 +9,8 @@ import (
 	cnConfiguration "github.com/haproxytech/client-native/v5/configuration"
 	"github.com/haproxytech/client-native/v5/models"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/controller/constants"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/controller/constants"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 func (c *clientNative) DefaultsGetConfiguration() (defaults *models.Defaults, err error) {

@@ -22,7 +22,7 @@ require (
 	k8s.io/apiextensions-apiserver v0.32.3
 	k8s.io/apimachinery v0.32.3
 	k8s.io/client-go v0.32.3
-	sigs.k8s.io/controller-runtime v0.20.1
+	sigs.k8s.io/controller-runtime v0.19.7
 	sigs.k8s.io/controller-tools v0.17.3
 	sigs.k8s.io/gateway-api v0.5.0
 	sigs.k8s.io/yaml v1.4.0

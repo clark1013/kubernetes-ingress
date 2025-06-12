@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"net/http"
 
-	corev1alpha2 "github.com/haproxytech/kubernetes-ingress/crs/generated/clientset/versioned/typed/core/v1alpha2"
-	ingressv1 "github.com/haproxytech/kubernetes-ingress/crs/generated/clientset/versioned/typed/ingress/v1"
+	corev1alpha2 "github.com/haproxytech/kubernetes-ingress/v3/crs/generated/clientset/versioned/typed/core/v1alpha2"
+	ingressv1 "github.com/haproxytech/kubernetes-ingress/v3/crs/generated/clientset/versioned/typed/ingress/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

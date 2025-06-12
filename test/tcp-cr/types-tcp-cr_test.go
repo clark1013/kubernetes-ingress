@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
 	"github.com/stretchr/testify/require"
 	"sigs.k8s.io/yaml"
 )

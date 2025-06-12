@@ -26,7 +26,7 @@ import (
 	tcp_actions "github.com/haproxytech/client-native/v5/config-parser/parsers/tcp/actions"
 	tcptypes "github.com/haproxytech/client-native/v5/config-parser/parsers/tcp/types"
 	"github.com/haproxytech/client-native/v5/config-parser/types"
-	"github.com/haproxytech/kubernetes-ingress/deploy/tests/e2e"
+	"github.com/haproxytech/kubernetes-ingress/v3/deploy/tests/e2e"
 	"github.com/stretchr/testify/suite"
 )
 

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/haproxytech/kubernetes-ingress/deploy/tests/e2e"
+	"github.com/haproxytech/kubernetes-ingress/v3/deploy/tests/e2e"
 )
 
 // For each test we send two times mores requests than replicas available.

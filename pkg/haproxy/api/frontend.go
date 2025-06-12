@@ -6,7 +6,7 @@ import (
 	parser "github.com/haproxytech/client-native/v5/config-parser"
 	"github.com/haproxytech/client-native/v5/config-parser/types"
 	"github.com/haproxytech/client-native/v5/models"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 func (c *clientNative) FrontendCfgSnippetSet(frontendName string, value []string) error {

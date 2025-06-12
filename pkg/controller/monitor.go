@@ -17,10 +17,10 @@ package controller
 import (
 	"os"
 
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/instance"
-	k8ssync "github.com/haproxytech/kubernetes-ingress/pkg/k8s/sync"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/instance"
+	k8ssync "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/sync"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
 )
 
 // SyncData gets all kubernetes changes, aggregates them and apply to HAProxy.

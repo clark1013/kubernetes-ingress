@@ -15,12 +15,12 @@ import (
 
 	"github.com/haproxytech/client-native/v5/models"
 
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
-	k8smeta "github.com/haproxytech/kubernetes-ingress/pkg/k8s/meta"
-	k8ssync "github.com/haproxytech/kubernetes-ingress/pkg/k8s/sync"
-	k8stransform "github.com/haproxytech/kubernetes-ingress/pkg/k8s/transform"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
+	k8smeta "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/meta"
+	k8ssync "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/sync"
+	k8stransform "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/transform"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 	gatewayv1alpha2 "sigs.k8s.io/gateway-api/apis/v1alpha2"
 	gatewayv1beta1 "sigs.k8s.io/gateway-api/apis/v1beta1"
 	gatewaynetworking "sigs.k8s.io/gateway-api/pkg/client/informers/externalversions"

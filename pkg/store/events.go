@@ -18,8 +18,8 @@ import (
 	"strings"
 
 	"github.com/go-test/deep"
-	"github.com/haproxytech/kubernetes-ingress/pkg/k8s/meta"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/meta"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 	"k8s.io/apimachinery/pkg/types"
 )
 

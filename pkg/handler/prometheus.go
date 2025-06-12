@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/instance"
-	k8ssync "github.com/haproxytech/kubernetes-ingress/pkg/k8s/sync"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/instance"
+	k8ssync "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/sync"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
 )
 
 type PrometheusEndpoint struct {

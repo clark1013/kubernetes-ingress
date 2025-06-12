@@ -20,16 +20,16 @@ import (
 
 	"github.com/haproxytech/client-native/v5/models"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations"
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations/common"
-	"github.com/haproxytech/kubernetes-ingress/pkg/controller/constants"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/certs"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/env"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/instance"
-	"github.com/haproxytech/kubernetes-ingress/pkg/ingress"
-	"github.com/haproxytech/kubernetes-ingress/pkg/service"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations/common"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/controller/constants"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/certs"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/env"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/instance"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/ingress"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/service"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 func (c *HAProxyController) handleGlobalConfig() {

@@ -18,7 +18,7 @@
 package v1alpha2
 
 import (
-	v1alpha2 "github.com/haproxytech/kubernetes-ingress/crs/api/core/v1alpha2"
+	v1alpha2 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/core/v1alpha2"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/tools/cache"

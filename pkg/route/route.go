@@ -21,11 +21,11 @@ import (
 
 	"github.com/haproxytech/client-native/v5/models"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/api"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/maps"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/rules"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/api"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/maps"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/rules"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 //nolint:golint,stylecheck

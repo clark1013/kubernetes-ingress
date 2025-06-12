@@ -20,8 +20,8 @@ package v1
 import (
 	"net/http"
 
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
-	"github.com/haproxytech/kubernetes-ingress/crs/generated/clientset/versioned/scheme"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
+	"github.com/haproxytech/kubernetes-ingress/v3/crs/generated/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

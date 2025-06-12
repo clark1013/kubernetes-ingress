@@ -15,8 +15,8 @@
 package gateway
 
 import (
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 

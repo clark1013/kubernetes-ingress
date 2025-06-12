@@ -21,7 +21,7 @@ import (
 )
 
 func (suite *UseBackendSuite) TestUseBackend() {
-	// This test addresses https://github.com/haproxytech/kubernetes-ingress/issues/476
+	// This test addresses https://github.com/haproxytech/kubernetes-ingress/v3/issues/476
 	suite.UseBackendFixture()
 	suite.Run("Modifying service annotations should not duplicate use_backend clause", func() {
 		contents, err := os.ReadFile(filepath.Join(suite.test.TempDir, "haproxy.cfg"))

@@ -18,7 +18,7 @@
 package fake
 
 import (
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/generated/clientset/versioned/typed/ingress/v1"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/generated/clientset/versioned/typed/ingress/v1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

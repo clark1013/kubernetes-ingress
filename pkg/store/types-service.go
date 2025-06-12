@@ -15,7 +15,7 @@
 package store
 
 import (
-	k8ssync "github.com/haproxytech/kubernetes-ingress/pkg/k8s/sync"
+	k8ssync "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/sync"
 )
 
 func (a Service) GetType() k8ssync.SyncType {

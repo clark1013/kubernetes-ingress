@@ -17,9 +17,9 @@ package converters
 import (
 	"github.com/haproxytech/client-native/v5/models"
 
-	corev1alpha2 "github.com/haproxytech/kubernetes-ingress/crs/api/core/v1alpha2"
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	corev1alpha2 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/core/v1alpha2"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 func DeepConvertBackendSpecA2toV1(o corev1alpha2.BackendSpec) v1.BackendSpec { //nolint:cyclop,maintidx

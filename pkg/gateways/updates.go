@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/gateway-api/apis/v1alpha2"

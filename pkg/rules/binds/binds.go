@@ -16,9 +16,9 @@ package binds
 
 import (
 	"github.com/haproxytech/client-native/v5/models"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/instance"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/instance"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 // Binds order is not important

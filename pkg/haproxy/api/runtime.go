@@ -9,9 +9,9 @@ import (
 	"github.com/haproxytech/client-native/v5/models"
 	"github.com/haproxytech/client-native/v5/runtime"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/metrics"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/metrics"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 var ErrMapNotFound = errors.New("map not found")

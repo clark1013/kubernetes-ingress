@@ -18,11 +18,11 @@
 package fake
 
 import (
-	clientset "github.com/haproxytech/kubernetes-ingress/crs/generated/clientset/versioned"
-	corev1alpha2 "github.com/haproxytech/kubernetes-ingress/crs/generated/clientset/versioned/typed/core/v1alpha2"
-	fakecorev1alpha2 "github.com/haproxytech/kubernetes-ingress/crs/generated/clientset/versioned/typed/core/v1alpha2/fake"
-	ingressv1 "github.com/haproxytech/kubernetes-ingress/crs/generated/clientset/versioned/typed/ingress/v1"
-	fakeingressv1 "github.com/haproxytech/kubernetes-ingress/crs/generated/clientset/versioned/typed/ingress/v1/fake"
+	clientset "github.com/haproxytech/kubernetes-ingress/v3/crs/generated/clientset/versioned"
+	corev1alpha2 "github.com/haproxytech/kubernetes-ingress/v3/crs/generated/clientset/versioned/typed/core/v1alpha2"
+	fakecorev1alpha2 "github.com/haproxytech/kubernetes-ingress/v3/crs/generated/clientset/versioned/typed/core/v1alpha2/fake"
+	ingressv1 "github.com/haproxytech/kubernetes-ingress/v3/crs/generated/clientset/versioned/typed/ingress/v1"
+	fakeingressv1 "github.com/haproxytech/kubernetes-ingress/v3/crs/generated/clientset/versioned/typed/ingress/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

@@ -18,7 +18,7 @@
 package v1
 
 import (
-	internalinterfaces "github.com/haproxytech/kubernetes-ingress/crs/generated/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/haproxytech/kubernetes-ingress/v3/crs/generated/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

@@ -15,7 +15,7 @@
 package store
 
 import (
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
 )
 
 func (k *K8s) EventBackendCR(namespace, name string, data *v1.Backend) bool {

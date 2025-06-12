@@ -3,7 +3,7 @@ package store
 import (
 	"fmt"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 func (gw *Gateway) IsValid() error {

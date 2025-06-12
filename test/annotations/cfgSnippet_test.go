@@ -17,7 +17,7 @@ package annotations_test
 import (
 	"testing"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations"
 )
 
 func Test_DisableConfigSnippets(t *testing.T) {

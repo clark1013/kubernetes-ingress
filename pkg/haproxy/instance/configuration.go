@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 var DefaultConfigurationManager = NewConfigurationManager()

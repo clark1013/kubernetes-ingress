@@ -28,10 +28,10 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/clientcmd"
 
-	crclientset "github.com/haproxytech/kubernetes-ingress/crs/generated/clientset/versioned"
-	crinformers "github.com/haproxytech/kubernetes-ingress/crs/generated/informers/externalversions"
-	k8ssync "github.com/haproxytech/kubernetes-ingress/pkg/k8s/sync"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	crclientset "github.com/haproxytech/kubernetes-ingress/v3/crs/generated/clientset/versioned"
+	crinformers "github.com/haproxytech/kubernetes-ingress/v3/crs/generated/informers/externalversions"
+	k8ssync "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/sync"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 	crdclientset "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset"
 	"k8s.io/apimachinery/pkg/fields"
 

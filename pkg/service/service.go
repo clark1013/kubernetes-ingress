@@ -21,16 +21,16 @@ import (
 	"github.com/haproxytech/client-native/v5/misc"
 	"github.com/haproxytech/client-native/v5/models"
 
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/api"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/certs"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/instance"
-	"github.com/haproxytech/kubernetes-ingress/pkg/rules/acls"
-	"github.com/haproxytech/kubernetes-ingress/pkg/rules/httprequests"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/api"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/certs"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/instance"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/rules/acls"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/rules/httprequests"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 var logger = utils.GetLogger()

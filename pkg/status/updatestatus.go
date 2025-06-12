@@ -1,11 +1,11 @@
 package status
 
 import (
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy"
-	"github.com/haproxytech/kubernetes-ingress/pkg/ingress"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/ingress"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 	"k8s.io/client-go/kubernetes"
 )
 

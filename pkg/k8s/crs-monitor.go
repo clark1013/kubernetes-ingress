@@ -17,7 +17,7 @@ package k8s
 import (
 	"time"
 
-	k8ssync "github.com/haproxytech/kubernetes-ingress/pkg/k8s/sync"
+	k8ssync "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/sync"
 	"k8s.io/client-go/tools/cache"
 
 	apiextensionsv1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"

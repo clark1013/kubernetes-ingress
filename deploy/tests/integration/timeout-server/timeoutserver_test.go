@@ -15,8 +15,8 @@
 package timeoutserver
 
 import (
-	k8ssync "github.com/haproxytech/kubernetes-ingress/pkg/k8s/sync"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
+	k8ssync "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/sync"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
 	networkingv1 "k8s.io/api/networking/v1"
 )
 

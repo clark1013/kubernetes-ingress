@@ -15,7 +15,7 @@
 package meta
 
 import (
-	k8ssync "github.com/haproxytech/kubernetes-ingress/pkg/k8s/sync"
+	k8ssync "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/sync"
 )
 
 type MetaInfoer interface {

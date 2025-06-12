@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations/common"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/rules"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations/common"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/rules"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 type ReqRateLimit struct {

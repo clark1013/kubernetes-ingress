@@ -7,14 +7,14 @@ import (
 
 	"github.com/google/renameio"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/api"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/certs"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/env"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/maps"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/process"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/rules"
-	"github.com/haproxytech/kubernetes-ingress/pkg/route"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/api"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/certs"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/env"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/maps"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/process"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/rules"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/route"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 var logger = utils.GetLogger()

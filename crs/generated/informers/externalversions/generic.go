@@ -20,8 +20,8 @@ package externalversions
 import (
 	"fmt"
 
-	v1alpha2 "github.com/haproxytech/kubernetes-ingress/crs/api/core/v1alpha2"
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
+	v1alpha2 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/core/v1alpha2"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

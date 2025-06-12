@@ -17,10 +17,10 @@ package k8s
 import (
 	"k8s.io/client-go/tools/cache"
 
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
-	informers "github.com/haproxytech/kubernetes-ingress/crs/generated/informers/externalversions"
-	k8ssync "github.com/haproxytech/kubernetes-ingress/pkg/k8s/sync"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
+	informers "github.com/haproxytech/kubernetes-ingress/v3/crs/generated/informers/externalversions"
+	k8ssync "github.com/haproxytech/kubernetes-ingress/v3/pkg/k8s/sync"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
 )
 
 type DefaultsCR struct{}

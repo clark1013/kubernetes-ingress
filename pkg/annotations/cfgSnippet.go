@@ -9,9 +9,9 @@ import (
 
 	"github.com/go-test/deep"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations/common"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/api"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations/common"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/api"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
 )
 
 //nolint:golint,stylecheck

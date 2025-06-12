@@ -3,8 +3,8 @@ package rules
 import (
 	"github.com/haproxytech/client-native/v5/models"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/api"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/api"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 type ReqCapture struct {

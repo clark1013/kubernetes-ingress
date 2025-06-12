@@ -18,8 +18,8 @@
 package scheme
 
 import (
-	corev1alpha2 "github.com/haproxytech/kubernetes-ingress/crs/api/core/v1alpha2"
-	ingressv1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
+	corev1alpha2 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/core/v1alpha2"
+	ingressv1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

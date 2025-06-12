@@ -5,9 +5,9 @@ import (
 
 	"github.com/haproxytech/client-native/v5/models"
 
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations/common"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations/common"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
 )
 
 // ModelBackend takes an annotation holding the path of a backend cr and returns corresponding Backend model

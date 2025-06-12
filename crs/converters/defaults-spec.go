@@ -18,9 +18,9 @@ import (
 	"github.com/haproxytech/client-native/v5/misc"
 	"github.com/haproxytech/client-native/v5/models"
 
-	corev1alpha2 "github.com/haproxytech/kubernetes-ingress/crs/api/core/v1alpha2"
-	v1 "github.com/haproxytech/kubernetes-ingress/crs/api/ingress/v1"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	corev1alpha2 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/core/v1alpha2"
+	v1 "github.com/haproxytech/kubernetes-ingress/v3/crs/api/ingress/v1"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 func DeepConvertDefaultsSpecA2toV1(o corev1alpha2.DefaultsSpec) v1.DefaultsSpec { //nolint:cyclop,maintidx

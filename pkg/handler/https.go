@@ -21,16 +21,16 @@ import (
 
 	"github.com/haproxytech/client-native/v5/models"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/certs"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/instance"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/certs"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/instance"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/maps"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/rules"
-	"github.com/haproxytech/kubernetes-ingress/pkg/route"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/maps"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/rules"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/route"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 type HTTPS struct {

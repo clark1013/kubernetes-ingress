@@ -17,7 +17,7 @@
 package haproxyfiles
 
 import (
-	"github.com/haproxytech/kubernetes-ingress/deploy/tests/e2e"
+	"github.com/haproxytech/kubernetes-ingress/v3/deploy/tests/e2e"
 )
 
 func (suite *HAProxyFilesSuite) Test_ErrorFiles() {

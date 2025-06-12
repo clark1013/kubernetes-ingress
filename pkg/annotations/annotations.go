@@ -6,15 +6,15 @@ import (
 
 	"github.com/haproxytech/client-native/v5/models"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations/common"
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations/global"
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations/ingress"
-	"github.com/haproxytech/kubernetes-ingress/pkg/annotations/service"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/certs"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/maps"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/rules"
-	"github.com/haproxytech/kubernetes-ingress/pkg/store"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations/common"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations/global"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations/ingress"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/annotations/service"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/certs"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/maps"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/rules"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/store"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 var logger = utils.GetLogger()

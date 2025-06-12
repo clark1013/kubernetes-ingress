@@ -17,7 +17,7 @@ package k8stransform
 import (
 	"sort"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 	networkingv1 "k8s.io/api/networking/v1"
 	"sigs.k8s.io/yaml"
 )

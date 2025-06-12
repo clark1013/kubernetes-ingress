@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 	"k8s.io/apimachinery/pkg/types"
 )
 

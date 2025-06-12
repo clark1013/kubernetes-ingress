@@ -20,7 +20,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/haproxytech/kubernetes-ingress/deploy/tests/e2e"
+	"github.com/haproxytech/kubernetes-ingress/v3/deploy/tests/e2e"
 )
 
 // For each test, requests made to "paths" should be

@@ -9,9 +9,9 @@ import (
 
 	"github.com/haproxytech/client-native/v5/runtime"
 	"github.com/haproxytech/client-native/v5/runtime/options"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/api"
-	"github.com/haproxytech/kubernetes-ingress/pkg/haproxy/env"
-	"github.com/haproxytech/kubernetes-ingress/pkg/utils"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/api"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/haproxy/env"
+	"github.com/haproxytech/kubernetes-ingress/v3/pkg/utils"
 )
 
 type pebbleControl struct {
