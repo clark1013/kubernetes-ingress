@@ -38,8 +38,9 @@ type TCPResource struct {
 	CollisionStatus Status `json:"collision_status,omitempty"` //nolint: tagliatelle
 	// If Status is ERROR, Reason will contain the reason
 	// Leave it as a fully flexible string
-	Reason      string `json:"reason,omitempty"`
-	v1.TCPModel `json:"tcpmodel"`
+	Reason       string `json:"reason,omitempty"`
+	IngressClass string `json:"ingress_class,omitempty"`
+	v1.TCPModel  `json:"tcpmodel"`
 }
 
 type TCPResourceList []*TCPResource
@@ -185,7 +186,7 @@ func (a *TCPResourceList) HasCollisionAddressPort() (bool, map[string]TCPResourc
 			if bBindWithResource, ok := bindsWithResourcesMap[AddressPort(aBind)]; ok {
 				btcp := bBindWithResource.resource
 				areEqual := atcp.Equal(btcp)
-				if !areEqual {
+				if !areEqual && atcp.IngressClass == btcp.IngressClass {
 					// Collision detected
 					resKey := AddressPort(aBind)
 					if _, ok := collisions[resKey]; !ok {
